@@ -1222,7 +1222,7 @@
 			<!-- Single Banner  -->
 			<div class="col-lg-6 col-md-6 col-12 banner">
 				<div class="single-banner two-part">
-					<img src="{{ asset('website/images/shoe3.jpg') }}" alt="#">
+					<img src="{{ asset('website/images/111.jpg') }}" alt="#">
 					<div class="content">
 						<p>Man's Collectons</p>
 						<h3>Man's items <br>Up to<span> 50%</span></h3>
@@ -1234,7 +1234,7 @@
 			<!-- Single Banner  -->
 			<div class="col-lg-6 col-md-6 col-12 banner">
 				<div class="single-banner two-part">
-					<img src="{{ asset('website/images/shoe1.jpg') }}" alt="#">
+					<img src="{{ asset('website/images/112.jpg') }}" alt="#">
 					<div class="content">
 						<p>shoes women</p>
 						<h3>mid season <br> up to <span>70%</span></h3>
@@ -1392,7 +1392,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
-								<img src="{{ asset('website/images/laptop.jpg') }}" alt="#">
+								<img src="{{ asset('website/images/111.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
@@ -1410,7 +1410,7 @@
 					<div class="row"> 
 						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
-								<img src="{{ asset('website/images/laptop3.jpg') }}" alt="#">
+								<img src="{{ asset('website/images/112.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
@@ -1428,7 +1428,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
-								<img src="{{ asset('website/images/c.jpg') }}" alt="#">
+								<img src="{{ asset('website/images/113.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
@@ -1516,13 +1516,13 @@
 				<!-- Start Single List  -->
 				<div class="single-list">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-12">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
 								<img src="{{ asset('website/images/b.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-12 no-padding">
+						<div class="col-lg-6 col-md-6 col-12 col-sm-6 no-padding">
 							<div class="content">
 								<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
 								<p class="price with-discount">$22</p>
@@ -1534,13 +1534,13 @@
 				<!-- Start Single List  -->
 				<div class="single-list">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-12">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
 								<img src="{{ asset('website/images/a.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-12 no-padding">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-12 no-padding">
 							<div class="content">
 								<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
 								<p class="price with-discount">$35</p>
@@ -1552,13 +1552,13 @@
 				<!-- Start Single List  -->
 				<div class="single-list">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-12">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 							<div class="list-image overlay">
 								<img src="{{ asset('website/images/e.jpg') }}" alt="#">
 								<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-12 no-padding">
+						<div class="col-lg-6 col-md-6 col-sm-6  col-12 no-padding">
 							<div class="content">
 								<h5 class="title"><a href="#">Licity jelly leg flat Sandals</a></h5>
 								<p class="price with-discount">$99</p>
@@ -1580,7 +1580,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-12 padding-right">
 					<div class="image comming-product">
-						<img src="{{ asset('website/images/62.jpg') }}" alt="#">
+						<img src="{{ asset('website/images/115.jpg') }}" alt="#">
 					</div>	
 				</div>	
 				<div class="col-lg-6 col-12 padding-left">

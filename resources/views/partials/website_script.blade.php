@@ -67,7 +67,7 @@
 					items:2,
 				},
 				768: {
-					items:3,
+					items:2,
 				},
 				1170: {
 					items:4,
