@@ -12,15 +12,16 @@
 			<!-- <div class="col-lg-3"></div> -->
 				<div class="col-lg-9 offset-lg-3 slider-single-part">
 					<div class="owl-carousel owl-theme custom1">
+						
 						<div class="slider-part item" style=" background-image:  url('{{ asset('website/images/91.jpg') }}');">
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
 										<div class="hero-text">
-											<h1><span>UP TO 51% OFF </span>New Sofa For You</h1>
+											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
 											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
-											<div class="button slider-btn">
-												<a href="#" class="btn ">Shop Now!</a>
+											<div class="button">
+												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
 										</div>
 									</div>
@@ -35,7 +36,7 @@
 											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
 											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
 											<div class="button">
-												<a href="#" class="btn">Shop Now!</a>
+												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
 										</div>
 									</div>
@@ -50,14 +51,14 @@
 											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
 											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
 											<div class="button">
-												<a href="#" class="btn">Shop Now!</a>
+												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="slider-part item" style=" background-image:  url('{{ asset('website/images/sofa5.jpg') }}');">
+						<div class="slider-part item" style=" background-image:  url('{{ asset('website/images/92.jpg') }}');">
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
@@ -65,7 +66,7 @@
 											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
 											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
 											<div class="button">
-												<a href="#" class="btn">Shop Now!</a>
+												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
 										</div>
 									</div>
@@ -184,7 +185,7 @@
 							<div class="tab-pane fade show active" id="man" role="tabpanel">
 								<div class="tab-single">
 									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-sm-6 col-md-4 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -210,7 +211,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -236,7 +237,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -262,7 +263,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -289,7 +290,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -315,7 +316,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -342,7 +343,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -368,7 +369,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -404,7 +405,7 @@
 							<div class="tab-pane fade" id="women" role="tabpanel">
 								<div class="tab-single">
 									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -430,7 +431,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -456,7 +457,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -482,7 +483,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -509,7 +510,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -535,7 +536,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -562,7 +563,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -588,7 +589,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -624,7 +625,7 @@
 							<div class="tab-pane fade" id="kids" role="tabpanel">
 								<div class="tab-single">
 									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -650,7 +651,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -676,7 +677,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -703,7 +704,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -730,7 +731,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -756,7 +757,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -783,7 +784,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -809,7 +810,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -845,7 +846,7 @@
 							<div class="tab-pane fade" id="accessories" role="tabpanel">
 								<div class="tab-single">
 									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -871,7 +872,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -897,7 +898,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -923,7 +924,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -950,7 +951,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -976,7 +977,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1003,7 +1004,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1029,7 +1030,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1064,8 +1065,8 @@
 							<!-- Start Single Tab -->
 							<div class="tab-pane fade" id="essential" role="tabpanel">
 								<div class="tab-single">
-									<div class="row">
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+									<div class="row"> 
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1091,7 +1092,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1117,7 +1118,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1143,7 +1144,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1170,7 +1171,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-xl-3 col-lg-4 col-md-4 col-12">
+										<div class="col-xl-3 col-lg-4 col-md-4  col-sm-6 col-12">
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
@@ -1630,7 +1631,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-6 col-12">
+			<div class="col-lg-4 col-md-6  col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
 					<img src="{{ asset('website/images/c.jpg') }}" alt="#">
@@ -1642,7 +1643,7 @@
 				</div>
 				<!-- End Single Blog  -->
 			</div>
-			<div class="col-lg-4 col-md-6 col-12">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
 					<img src="{{ asset('website/images/b.jpg') }}" alt="#">
@@ -1654,7 +1655,7 @@
 				</div>
 				<!-- End Single Blog  -->
 			</div>
-			<div class="col-lg-4 col-md-6 col-12">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
 					<img src="{{ asset('website/images/e.jpg') }}" alt="#">

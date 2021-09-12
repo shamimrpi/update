@@ -36,7 +36,6 @@
 	    animateOut: 'slideOutDown',
 	    animateIn: 'flipInX',
 	    items:1,
-	    stagePadding:30,
 	    smartSpeed:450,
 	    loop:true,
 		
@@ -64,7 +63,7 @@
 					items:1,
 				},
 				480: {
-					items:2,
+					items:1,
 				},
 				768: {
 					items:2,
