@@ -17,13 +17,12 @@
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
-										<div class="hero-text">
-											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
-											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+									
+										
 											<div class="button">
 												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
-										</div>
+									
 									</div>
 								</div>
 							</div>
@@ -32,13 +31,12 @@
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
-										<div class="hero-text">
-											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
-											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+										
+											
 											<div class="button">
 												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
-										</div>
+									
 									</div>
 								</div>
 							</div>
@@ -47,13 +45,12 @@
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
-										<div class="hero-text">
-											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
-											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+									
+										
 											<div class="button">
 												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
-										</div>
+							
 									</div>
 								</div>
 							</div>
@@ -62,13 +59,12 @@
 							<div class="text-inner">
 								<div class="row">
 									<div class="col-lg-7 col-12 middle">
-										<div class="hero-text">
-											<h1><span>UP TO 51% OFF </span>Shirt For Man</h1>
-											<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+									
+											
 											<div class="button">
 												<a href="#" class="btn show-now-btn">Shop Now!</a>
 											</div>
-										</div>
+							
 									</div>
 								</div>
 							</div>
@@ -92,7 +88,7 @@
 								<img src="{{ asset('website/images/81.jpg') }}" alt="#">
 								<div class="content">
 									<p>Man's Collectons</p>
-									<h3>Summer travel <br> collection</h3>
+									<h3 class="single-banner-title">Summer travel <br> collection</h3>
 									<a class="shop-btn" href="#">Discover Now</a>
 								</div>
 							
@@ -199,7 +195,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -225,7 +221,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -251,7 +247,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -278,7 +274,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -304,7 +300,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -331,7 +327,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -357,7 +353,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -384,7 +380,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -419,7 +415,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -445,7 +441,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -471,7 +467,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -498,7 +494,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -524,7 +520,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -551,7 +547,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -577,7 +573,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -604,7 +600,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -639,7 +635,7 @@
 															<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
 														</div>
 														<div class="product-action-2">
-															<a title="Add to cart" href="#">Add to cart</a>
+															<a title="Add to cart" class="cart-btn" href="#">Add to cart</a>
 														</div>
 													</div>
 												</div>
@@ -1383,7 +1379,7 @@
 			<div class="col-lg-4 col-md-6 col-12">
 				<div class="row">
 					<div class="col-12">
-						<div class="shop-section-title">
+						<div class="shop-section-title sale-title">
 							<h1>On sale</h1>
 						</div>
 					</div>
@@ -1581,7 +1577,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-12 padding-right">
 					<div class="image comming-product">
-						<img src="{{ asset('website/images/115.jpg') }}" alt="#">
+						<img src="{{ asset('website/images/130.jpg') }}" alt="#">
 					</div>	
 				</div>	
 				<div class="col-lg-6 col-12 padding-left">
@@ -1634,7 +1630,7 @@
 			<div class="col-lg-4 col-md-6  col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/c.jpg') }}" alt="#">
+					<img src="{{ asset('website/images/121.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July , 2020. Monday</p>
 						<a href="#" class="title">Sed adipiscing ornare.</a>
@@ -1646,7 +1642,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/b.jpg') }}" alt="#">
+					<img src="{{ asset('website/images/122.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July, 2020. Monday</p>
 						<a href="#" class="title">Man’s Fashion Winter Sale</a>
@@ -1658,7 +1654,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/e.jpg') }}" alt="#">
+					<img src="{{ asset('website/images/123.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July, 2020. Monday</p>
 						<a href="#" class="title">Women Fashion Festive</a>

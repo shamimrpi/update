@@ -7,6 +7,9 @@ use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\Logincontroller;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminProfileController;
+use App\Http\Controllers\FrontCartController;
+use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\FrontContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,6 +43,9 @@ Route::middleware(['auth'])->group(function () {
 
 
 Route::get('/',[HomeController::class,'home'])->name('home');
+Route::get('/cart',[FrontCartController::class,'cartView'])->name('cart');
+Route::get('/checkout',[CheckoutController::class,'checkOut'])->name('check.out');
+Route::get('/contact',[FrontContactController::class,'contact'])->name('contact');
 
 
 

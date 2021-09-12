@@ -76,7 +76,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-12">
 							<div class="text-center">
-								<p>Copyright © 2020 <a href="http://linktechbd.com/" target="_blank">Link-Up Technology Ltd</a>  -  All Rights Reserved.</p>
+								<p>Copyright © 2020 <a class="footer-link" href="http://linktechbd.com/" target="_blank">Link-Up Technology Ltd</a>  -  All Rights Reserved.</p>
 							</div>
 						</div>
 						

@@ -35,7 +35,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="{{ asset('website/images/logo/companylogo.png') }}" class="logo" alt="logo"></a>
+							<a href="{{ route('home') }}"><img src="{{ asset('website/images/logo/companylogo.png') }}" class="logo" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -70,7 +70,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-12">
-						<div class="right-bar">
+						<div class="right-bar" id="right-bar">
 							<!-- Search Form -->
 							
 							<div class="sinlge-bar">
@@ -82,7 +82,7 @@
 								<div class="shopping-item">
 									<div class="dropdown-cart-header">
 										<span>2 Items</span>
-										<a href="#">View Cart</a>
+										<a href="{{ route('cart') }}">View Cart</a>
 									</div>
 									<ul class="shopping-list">
 										<li>
@@ -103,7 +103,7 @@
 											<span>Total</span>
 											<span class="total-amount">$134.00</span>
 										</div>
-										<a href="checkout.html" class="btn animate">Checkout</a>
+										<a href="{{ route('check.out') }}" class="btn animate">Checkout</a>
 									</div>
 								</div>
 								<!--/ End Shopping Item -->

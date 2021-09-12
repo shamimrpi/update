@@ -14,10 +14,7 @@
 	<script src="{{asset('website')}}/js/owl-carousel.js"></script>
 	<!-- Magnific Popup JS -->
 	<script src="{{asset('website')}}/js/magnific-popup.js"></script>
-	<!-- Waypoints JS -->
-	<script src="{{asset('website')}}/js/waypoints.min.js"></script>
-	<!-- Countdown JS -->
-	<script src="{{asset('website')}}/js/finalcountdown.min.js"></script>
+
 	<!-- Nice Select JS -->
 	<script src="{{asset('website')}}/js/nicesellect.js"></script>
 	<!-- Flex Slider JS -->
@@ -152,8 +149,9 @@
 
 
 		});
-	</script>
 
+
+      $('country-select').niceSelect();
 
 		
 	</script>

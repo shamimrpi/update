@@ -49,22 +49,32 @@ Version:1.0
 		03. Sticky Header JS
 		======================================*/ 
 		jQuery(window).on('scroll', function() {
-			if ($(this).scrollTop() >  600) {
+			if ($(this).scrollTop() >  400) {
 				$('.header').addClass("sticky");
 				$('.category-hide').addClass('container');
 				$('.category-hide').removeClass('container-fluid');
 				$('#category_top').removeClass('col-lg-3');
 				$('.all-category').hide();
+				$('#right-bar').css({"position":"fixed","z-index":"9999","top":"20px","margin":"0 40px 40px"});
+				$('.right-content').hide();
+			
+
+
 
 			} else {
 				$('.header').removeClass("sticky");
 				$('.category-hide').removeClass('container');
 				$('.category-hide').addClass('container-fluid');
 				$('#category_top').addClass('col-lg-3');
-				$('.all-category').show();		
+				$('.all-category').show();
+				/*$('#right-bar').css({"position":"fixed","z-index":"9999","top":"20px","margin":"0 40px 40px"});*/
+				$('.right-content').show();
+
+					
 			}
 		});
 		
+	
 		/*=======================
 		  Search JS JS
 		=========================*/ 
