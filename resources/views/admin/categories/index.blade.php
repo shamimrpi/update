@@ -1,41 +1,53 @@
 @extends('layouts.admin')
 @section('main_mody')
     <div class="container-fluid">
+        <br>
+        <br>
               
                 <div class="row">
                     <div class="col-sm-10 m-auto">
                         <div class="card crate_form" style="">
-                            <div class="card-body">
+                            
                                 <form class="form" action="{{route('product.store')}}" method="POST">
                                     @csrf
                                     <div class="row">
                                         <div class="col-md-2 right">
-                                            <label class="right">Category Name<label>
+                                            <label class="right">Category Name</label>
                                         </div>
                                         <div class="col-md-6">
                                             <input type="text" class="form-control" placeholder="Category Name" name="name">
                                         </div>
+                                         @if($errors->has('name'))
+                                        <span class="text-danger">{{$errors->first('name')}}</span>
+                                        @endif
                                         <div class="col-md-3">
                                             <input type="submit" value="Create" class="btn btn-info">
                                         </div>
                                     </div>
                                 </form>
-                            </div>
+                          
                         </div>
                     </div>
+                </div>
+               
+                    <br>
+                    <br>
+
                     <!-- column -->
-                    <div class="col-sm-12">
+                    <h1 class="text-center"> Product Category Table</h1>
+                    <br/>
+                    <br/>
+                    <div class="row justify-content-md-center">
+                    <div class="col-md-10">
                         <div class="card mycard">
                             <div class="card-body">
                                 <h4 class="card-title">Category Table</h4>
                                <br/>
-                              
-                               <br/>
-                               <br/>
+                            
                                 <div class="table-responsive">
-                                    <table class="my-table user-table no-wrap">
+                                    <table class="table" id="category-table">
                                         <thead >
-                                            <tr class="table-head" style="background: pink; padding: 10px 0;height: 50px">
+                                            <tr>
                                                 <th class="border-top-0">#SL</th>
                                                 <th class="border-top-0">Name</th>
                                                 <th class="border-top-0">Action</th>
@@ -45,12 +57,12 @@
                                         <tbody>
                                             @foreach($categories as $key=>$category)
                                                 <tr>
-                                                    <td>{{$key+1}}</td>
+                                                   <td width="10%">{{$key+1}}</td>
                                                     <td>{{$category->name}}</td>
-                                                    <td>
-                                                        <a href="{{ route('product.category.edit',$category->id) }}" class="btn btn-info btn-sm edit_btn"><i class="fa fa-edit"></i>Edit</a>
+                                                    <td width="30%">
+                                                        <a href="{{ route('product.category.edit',$category->id) }}" class="btn btn-info edit_btn"><i class="fa fa-edit"></i>Edit</a>
 
-                                                        <a class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Delete</a>
+                                                        <a href="{{route('product.category.delete',$category->id)}}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                                                     </td>
                                                     
                                                 </tr>

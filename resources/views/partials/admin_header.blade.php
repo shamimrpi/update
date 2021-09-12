@@ -16,7 +16,7 @@
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="{{asset('admin/profile/images/'.Auth::user()->image)}}" style="height:50px;width:0px;border-radius:50%" alt="homepage" class="dark-logo" />
+                            <img src="{{ URL::to('/admin') }}/profile/images/{{ Auth::user()->image }}" style="height:50px;width:0px;border-radius:50%" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>

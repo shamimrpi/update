@@ -7,14 +7,12 @@
     <script src="{{asset('admin/js/waves.js')}}"></script>
     <!--Menu sidebar -->
     <script src="{{asset('admin/js/sidebarmenu.js')}}"></script>
-    <!--Custom JavaScript -->
-    <script src="{{asset('admin/js/custom.js')}}"></script>
-
-    <!--This page JavaScript -->
-    <!--flot chart-->
+ 
     <script src="{{asset('admin/js/jquery.flot.js')}}"></script>
     <script src="{{asset('admin/js/jquery.flot.tooltip.min.js')}}"></script>
     <script src="{{asset('admin/js/dashboard1.js')}}"></script>
+     <script src="{{asset('admin/js/datatables.min.js')}}"></script>
+     <script src="{{asset('admin/js/custom.js')}}"></script>
     <script>
     $(document).ready(function(){
         $("#logout").on('click',function(){
@@ -62,4 +60,9 @@
           }
                 toastr.warning("{{ session('warning') }}");
           @endif
+
+
+        
+        $('#category-table').DataTable();
+
 </script>

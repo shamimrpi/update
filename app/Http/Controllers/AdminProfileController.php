@@ -18,14 +18,15 @@ class AdminProfileController extends Controller
         
         if($request->file('image')){
             $file = $request->file('image');
-            dd($file);
+          
             @unlink($profile->image);
             $fileName = rand(0000,9999).$file->getClientOriginalName();
             $file->move(public_path('/admin/profile/images'),$fileName);
-            $request->image = $fileName;
+            $profile->image = $fileName;
+
           
         }
-       
+        $profile->dob = $request->dob;
         $profile->save();
         return back()->with('message','Profile updated Successfully');
         

@@ -6,7 +6,8 @@
                     <!-- column -->
                     <br />
                     <br/>
-                  
+                        <h1 class="text-center"> Admin User Profile</h1>
+                        <br/>
                         <div class="card mycard" style="">
                             <div class="card-body">
                                 <form class="form" action="{{route('admin.profile.update')}}" method="POST" enctype="multipart/form-data">
@@ -35,7 +36,7 @@
                                             <input type="file" id="imgload" class="form-control" name="image">
                                         </div>
                                         <div class="col-md-4">
-                                            <img id="showImage" class="form-control"  style="height: 150px;width: 170px;border: 1px solid #eee">
+                                            <img id="showImage" class="form-control"  style="height: 150px;margin-top: 20px;width: 170px;border: 1px solid #eee">
                                         </div>
                                         <button class="btn btn-info submit-btn" type="submit" value="Update">Update</button>
                                     </div>
