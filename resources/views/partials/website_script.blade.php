@@ -80,7 +80,7 @@
 			animateOut: 'fadeOut',
 			autoplayHoverPause:true,
 			loop:true,
-			
+			dots:false,
 
 			merge:true,
 

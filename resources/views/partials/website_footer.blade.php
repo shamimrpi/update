@@ -6,7 +6,7 @@
 				<div class="row">
 					<div class="col-lg-5 col-md-6 col-12">
 						<!-- Single Widget -->
-						<div class="single-footer about">
+						<div class="single-footer about ">
 							<div class="logo">
 								<a href="index.html"><img src="{{ asset('website/images/logo/companylogo.png') }}" alt="#"></a>
 							</div>
@@ -18,7 +18,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Information</h4>
+							<h4 class="footer-single-part">Information</h4>
 							<ul>
 								<li><a href="#">About Us</a></li>
 								<li><a href="#">Faq</a></li>
@@ -32,7 +32,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Customer Service</h4>
+							<h4 class="footer-single-part">Customer Service</h4>
 							<ul>
 								<li><a href="#">Payment Methods</a></li>
 								<li><a href="#">Money-back</a></li>
@@ -46,7 +46,7 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer social">
-							<h4>Get In Tuch</h4>
+							<h4 class="footer-single-part">Get In Tuch</h4>
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>

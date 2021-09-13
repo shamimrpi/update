@@ -49,14 +49,17 @@ Version:1.0
 		03. Sticky Header JS
 		======================================*/ 
 		jQuery(window).on('scroll', function() {
-			if ($(this).scrollTop() >  400) {
+			if ($(this).scrollTop() >  300) {
 				$('.header').addClass("sticky");
 				$('.category-hide').addClass('container');
 				$('.category-hide').removeClass('container-fluid');
 				$('#category_top').removeClass('col-lg-3');
 				$('.all-category').hide();
-				$('#right-bar').css({"position":"fixed","z-index":"9999","top":"20px","margin":"0 40px 40px"});
+				$('.topbar-menu').addClass('container');
+				
 				$('.right-content').hide();
+				$('.header.shop .nav li a').css({'padding':'10px 15px'});
+				$('.top-search').css({'margin-top':'5%'});
 			
 
 
@@ -67,8 +70,12 @@ Version:1.0
 				$('.category-hide').addClass('container-fluid');
 				$('#category_top').addClass('col-lg-3');
 				$('.all-category').show();
-				/*$('#right-bar').css({"position":"fixed","z-index":"9999","top":"20px","margin":"0 40px 40px"});*/
+				$('.topbar-menu').removeClass('container');
+
 				$('.right-content').show();
+				$('.header.shop .nav li a').css({'padding':'20px 15px'});
+				$('.top-search').css({'margin-top':'5%'});
+
 
 					
 			}

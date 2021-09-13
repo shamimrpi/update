@@ -1,33 +1,34 @@
 <!-- Header -->
 <header class="header shop">
 		<!-- Topbar -->
-		<div class="topbar">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-12">
-						<!-- Top Left -->
-						<div class="top-left">
-							<ul class="list-main">
-								<li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
-								<li><i class="ti-email"></i> support@shophub.com</li>
-							</ul>
-						</div>
-						<!--/ End Top Left -->
+	<div class="topbar">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<!-- Top Left -->
+					<div class="top-left">
+						<ul class="list-main">
+							<li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
+							<li><i class="ti-email"></i> support@shophub.com</li>
+						</ul>
 					</div>
-					<div class="col-lg-6 col-md-6 col-12">
-						<!-- Top Right -->
-						<div class="right-content">
-							<ul class="list-main">
-							
-								<li><i class="ti-user"></i> <a href="#">My account</a></li>
-								<li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
-							</ul>
-						</div>
-						<!-- End Top Right -->
+					<!--/ End Top Left -->
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<!-- Top Right -->
+					<div class="right-content">
+						<ul class="list-main">
+						
+							<li><i class="ti-user"></i> <a href="#">My account</a></li>
+							<li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
+						</ul>
 					</div>
+					<!-- End Top Right -->
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="add-sticky">
 		<!-- End Topbar -->
 		<div class="middle-inner">
 			<div class="container-fluid topbar-menu">
@@ -70,7 +71,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-12">
-						<div class="right-bar" id="right-bar">
+						<div class="right-bar">
 							<!-- Search Form -->
 							
 							<div class="sinlge-bar">
@@ -169,6 +170,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 		<!--/ End Header Inner -->
 </header>
 	<!--/ End Header -->

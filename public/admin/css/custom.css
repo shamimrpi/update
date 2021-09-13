@@ -32,9 +32,10 @@ box-sizing: border-box;
 nav .mysidebar{
     backgroun :#2A3042 !important;
 }
-.myfooter{
+.myfooter {
     background-color: #00A4CF;
     color: white;
+    position: fixed;
 }
 .myfooter a{
     color:#ffffff;
@@ -52,7 +53,7 @@ nav .mysidebar{
 }
 
 .card-body{
-    box-shadow: 1px 2px 3px 4px #ddd;
+    box-shadow: 1px 2px 3px 2px #ddd;
 }
 tr{
     border-bottom: 1px solid #f0f0f0;
