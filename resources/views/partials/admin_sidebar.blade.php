@@ -1,48 +1,27 @@
-<aside class="left-sidebar mysidebar" data-sidebarbg="skin6" style="background:#2A3042"> 
-@php
-      
-      $route = Route::current()->getName();
-    @endphp
-            <!-- Sidebar scroll-->
-            <div class="scroll-sidebar ">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav ">
-                    <ul id="sidebarnav " style="background:#2A3042">
-                        <!-- User Profile-->
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link {{($route == 'dashboard')?'active':''}}"
-                                href="{{route('dashboard')}}" aria-expanded="false"><i class="me-3 far fa-clock fa-fw"
-                                    aria-hidden="true"></i><span class="hide-menu">Dashboard</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link {{($route == 'product.category')?'active':''}}"
-                                href="{{route('product.category')}}" aria-expanded="false">
-                                <i class="me-3 fab fa-bandcamp" aria-hidden="true"></i><span
-                                    class="hide-menu">Category</span></a>
-                        </li>
-                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link {{($route == 'profile')?'active':''}}"
-                                href="{{route('profile')}}" aria-expanded="false">
-                                <i class="me-3 fas fa-user" aria-hidden="true"></i><span
-                                    class="hide-menu">Profile</span></a>
-                        </li>
-                      
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="table-basic.html" aria-expanded="false"><i class="me-3 fa fa-table"
-                                    aria-hidden="true"></i><span class="hide-menu">Table</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="icon-fontawesome.html" aria-expanded="false"><i class="me-3 fa fa-font"
-                                    aria-hidden="true"></i><span class="hide-menu">Icon</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="map-google.html" aria-expanded="false"><i class="me-3 fa fa-globe"
-                                    aria-hidden="true"></i><span class="hide-menu">Google Map</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="blank.html" aria-expanded="false"><i class="me-3 fa fa-columns"
-                                    aria-hidden="true"></i><span class="hide-menu">Blank</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="404.html" aria-expanded="false"><i class="me-3 fa fa-info-circle"
-                                    aria-hidden="true"></i><span class="hide-menu">Error 404</span></a></li>
-                      
-                    </ul>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{ URL::to('/admin') }}/profile/images/{{ Auth::user()->image }}" alt="User Image" style="height: 40px;width: 40px">
+        <div>
+          <p class="app-sidebar__user-name">{{ Auth::user()->first_name }}</p>
+          <p class="app-sidebar__user-designation">Frontend Developer</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li><a class="app-menu__item active" href="{{ route('dashboard') }}"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
 
-                </nav>
-                <!-- End Sidebar navigation -->
-            </div>
-            <!-- End Sidebar scroll-->
-        </aside>
+        <li><a class="app-menu__item active" href="{{ route('dashboard') }}"><i class="app-menu__icon fa fa-users"></i><span class="app-menu__label">Customers</span></a></li>
+
+        <li><a class="app-menu__item active" href="{{ route('dashboard') }}"><i class="app-menu__icon fa fa-product-hunt"></i><span class="app-menu__label">Product</span></a></li>
+         <li><a class="app-menu__item active" href="{{ route('dashboard') }}"><i class="app-menu__icon fa fa-adjust"></i><span class="app-menu__label">Category</span></a></li>
+
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop "></i><span class="app-menu__label">UI Elements</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="bootstrap-components.html"><i class="icon fas fa-circle-o"></i> Bootstrap Elements</a></li>
+            <li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener"><i class="icon fa fa-circle-o"></i> Font Icons</a></li>
+            <li><a class="treeview-item" href="ui-cards.html"><i class="icon fas fa-circle-o"></i> Cards</a></li>
+            <li><a class="treeview-item" href="widgets.html"><i class="icon fas fa-circle-o"></i> Widgets</a></li>
+          </ul>
+        </li>
+        <li><a class="app-menu__item" href="charts.html"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Charts</span></a></li>
+        
+      </ul>
+    </aside>

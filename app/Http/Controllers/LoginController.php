@@ -8,18 +8,21 @@ class LoginController extends Controller
 {
     public function login(){
 
-    	return view('admin.admin_login');
+    	return view('admin.login');
     }
 
-    public function loginConfirm(Request $r){
-    	$data = $r->only('email', 'password');
+    public function loginConfirm(Request $request){
+
+    	$data = $request->only('email', 'password');
 
     	
     	/* $data['password'] = Hash::make($data['password']);*/
     	if (Auth::attempt($data)) {
     		return redirect()->route('dashboard');
     	} else {
-    		return redirect()->route('admin.login')->withErrors(['Invalid Email and password']);
+    		// return redirect()->route('login')->with('error','Invalid Email Or Password');
+            Session::flash('fail', 'email or password dones');
+            return redirect()->back();
     	}
     }
 
@@ -27,6 +30,6 @@ class LoginController extends Controller
     {
     	Auth::logout();
 
-    	return redirect()->route('admin.login');
+    	return redirect()->route('login');
     }
 }

@@ -1,76 +1,15 @@
+[data-notify="progressbar"] {
 
+	margin-bottom: 0px;
 
-.page-wrapper{
-    background:#fff !important;
-}
-.page-wrapper{
-    min-height: 100vh;
-}
-.footer{
-   
-    bottom: 0;
-    width: 100%;
-}
+	position: absolute;
 
-.mycard{
-    
-    transition:all .5s;
-}
-.my-input{
-    width: 100%;
-  padding: 5px 5px;
-  margin: 2px 0;
-  outline: none;
-  box-shadow: 1px 1px 2px pink;
-box-sizing: border-box;
-}
+	bottom: 0px;
 
-.right {
-    text-align: right;
-    margin-top: 2px;
-}
-nav .mysidebar{
-    backgroun :#2A3042 !important;
-}
-.myfooter {
-    background-color: #00A4CF;
-    color: white;
-    position: fixed;
-}
-.myfooter a{
-    color:#ffffff;
-}
-.active{
-    background: #2A3042;
-    color:#000;
-}
-.sidebar-link{
-    color:#029EFB!important;
-}
+	left: 0px;
 
-.submit-btn{
-    width: 150px;
-}
+	width: 100%;
 
-.card-body{
-    box-shadow: 1px 2px 3px 2px #ddd;
-}
-tr{
-    border-bottom: 1px solid #f0f0f0;
-    text-align: center;
-}
-.pink{
-    background:pink;
-}
-.blue{
-    background:#327DA8;
-}
-.red{
-    background:#0195F5;
-}
-.edit-form{
-    margin-top: 30px;
-}
-.update-btn{
-margin-top:20px;
+	height: 5px;
+
 }

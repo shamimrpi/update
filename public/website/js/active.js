@@ -59,7 +59,7 @@ Version:1.0
 				
 				$('.right-content').hide();
 				$('.header.shop .nav li a').css({'padding':'10px 15px'});
-				$('.top-search').css({'margin-top':'5%'});
+				$('.top-search').css({'margin-top':'1%'});
 			
 
 
@@ -74,7 +74,7 @@ Version:1.0
 
 				$('.right-content').show();
 				$('.header.shop .nav li a').css({'padding':'20px 15px'});
-				$('.top-search').css({'margin-top':'5%'});
+				$('.top-search').css({'margin-top':'1%'});
 
 
 					

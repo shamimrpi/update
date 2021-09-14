@@ -47,10 +47,11 @@
 	    animateIn: 'flipInX',
 	    items:3,
 	    margin:15,
-	    stagePadding:30,
+	    stagePadding:15,
 	    smartSpeed:450,
 	    dots: false,
 	    loop:true,
+	  
 
 	    responsive:{
 				0: {
@@ -149,7 +150,6 @@
 
 
 		});
-
 
       $('country-select').niceSelect();
 

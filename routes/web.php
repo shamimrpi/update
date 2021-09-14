@@ -22,32 +22,16 @@ use App\Http\Controllers\AdminProductController;
 |
 */
 
-Route::get('/admin/login',[LoginController::class,'login'])->name('admin.login');
-Route::post('/backend/loginConfirm',[LoginController::class,'loginConfirm'])->name('admin.login.confirm');
+Route::get('/login',[LoginController::class,'login'])->name('login');
+Route::post('/login/confirm',[LoginController::class,'loginConfirm'])->name('login.confirm');
+
 //admin area
 Route::middleware(['auth'])->group(function () {
-    Route::get('/admin/logout',[LoginController::class,'logout'])->name('admin.logout');
-    Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
-    
-    Route::get('/profile',[AdminProfileController::class,'profile'])->name('profile');
-    Route::post('/profile/update',[AdminProfileController::class,'profileUpdate'])->name('admin.profile.update');
-  
-    //Category Controller
-    Route::get('/product/category',[ProductCategoryController::class,'index'])->name('product.category');
-    Route::get('/product/category/create',[ProductCategoryController::class,'create'])->name('product.category.create');
-    Route::post('/product/category/store',[ProductCategoryController::class,'store'])->name('product.store');
-    Route::get('/product/category/edit/{id}',[ProductCategoryController::class,'edit'])->name('product.category.edit');
-    Route::put('/product/category/update/{id}',[ProductCategoryController::class,'update'])->name('product.category.update');
-    Route::get('/product/category/delete/{id}',[ProductCategoryController::class,'destroy'])->name('product.category.delete');
+Route::get('/logout',[LoginController::class,'logout'])->name('logout');
+  Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
+     
 
-     //Product Controller
-    Route::get('product/create',[AdminProductController::class,'create'])->name('product.create');
-
-
-
-    
 });
-
 
 
 Route::get('/',[HomeController::class,'home'])->name('home');

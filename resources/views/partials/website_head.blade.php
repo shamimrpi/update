@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title Tag  -->
-    <title>Eshop - eCommerce HTML5 Template.</title>
+    <title>Eshop - eCommerce Website</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<!-- Web Font -->
@@ -16,14 +16,12 @@
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="{{asset('website/css/bootstrap.css')}}">
 	
-	<!-- Magnific Popup -->
-    <link rel="stylesheet" href="">
 
-
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{{asset('website')}}/css/magnific-popup.min.css">
 
 	<link rel="stylesheet" href="{{asset('website')}}/css/bootstrap.css">
-	<!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{asset('website')}}/css/magnific-popup.min.css">
+	
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('website')}}/css/font-awesome.css">
      <link rel="stylesheet" href="{{asset('website')}}/css/themify-icons.css">

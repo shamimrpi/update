@@ -82,7 +82,7 @@
 								<div class="content">
 									<p>Man's Collectons</p>
 									<h3 class="single-banner-title">Summer travel <br> collection</h3>
-									<a class="shop-btn" href="#">Discover Now</a>
+									<a class="discover-btn" href="#">Discover Now</a>
 								</div>
 							
 						</div>
@@ -95,7 +95,7 @@
 							<div class="content">
 								<p>Flash Sale</p>
 								<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-								<a href="#" class="">Discover Now</a>
+								<a href="#" class="discover-btn">Discover Now</a>
 							</div>
 						</div>
 			
@@ -107,7 +107,7 @@
 							<div class="content">
 								<p>Flash Sale</p>
 								<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-								<a href="#" class="">Discover Now</a>
+								<a href="#" class="discover-btn">Discover Now</a>
 							</div>
 						</div>
 						<div class="single-banner card tab-height slider-card">
@@ -115,7 +115,7 @@
 							<div class="content">
 								<p>Flash Sale</p>
 								<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-								<a href="#" class="">Discover Now</a>
+								<a href="#" class="discover-btn">Discover Now</a>
 							</div>
 						</div>
 
@@ -124,15 +124,15 @@
 							<div class="content">
 								<p>Flash Sale</p>
 								<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-								<a href="#" class="">Discover Now</a>
+								<a href="#" class="discover-btn">Discover Now</a>
 							</div>
 						</div>
 						<div class="single-banner card tab-height slider-card">
-							<img src="{{ asset('website/images/86.jpg') }}" alt="#">
+							<img src="{{ asset('website/images/84.jpg') }}" alt="#">
 							<div class="content">
 								<p>Flash Sale</p>
 								<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-								<a href="#" class="">Discover Now</a>
+								<a href="#" class="discover-btn">Discover Now</a>
 							</div>
 						</div>
 			
@@ -1234,8 +1234,8 @@
 											<div class="single-product">
 												<div class="product-img">
 													<a href="product-details.html">
-														<img class="default-img" src="{{ asset('website/images/13.jpg') }}0" alt="#">
-														<img class="hover-img" src="{{ asset('website/images/13.jpg') }}0" alt="#">
+														<img class="default-img" src="{{ asset('website/images/13.jpg') }}" alt="#">
+														<img class="hover-img" src="{{ asset('website/images/13.jpg') }}" alt="#">
 													</a>
 													<div class="button-head">
 														<div class="product-action">
@@ -1353,6 +1353,9 @@
 <!-- Start Midium Banner  -->
 <section class="midium-banner">
 	<div class="container single-part-bg">
+		<div class="section-title">
+					<h2> Dealing With Customers </h2>
+				</div>
 		<div class="row">
 			<!-- Single Banner  -->
 			<div class="col-lg-6 col-md-6 col-12 banner">
@@ -1768,11 +1771,12 @@
 			<div class="col-lg-4 col-md-6  col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/121.jpg') }}" alt="#" class="single-blog-image">
+					<img src="{{ asset('website/images/141.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July , 2020. Monday</p>
 						<a href="#" class="title">Sed adipiscing ornare.</a>
-						<a href="#" class="more-btn">Continue Reading</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
+						<a href="#" class="more-btn read-more">Continue Reading</a>
 					</div>
 				</div>
 				<!-- End Single Blog  -->
@@ -1780,10 +1784,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/122.jpg') }}" alt="#" class="single-blog-image">
+					<img src="{{ asset('website/images/142.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July, 2020. Monday</p>
 						<a href="#" class="title">Man’s Fashion Winter Sale</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
 						<a href="#" class="more-btn">Continue Reading</a>
 					</div>
 				</div>
@@ -1792,10 +1797,11 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 				<!-- Start Single Blog  -->
 				<div class="shop-single-blog">
-					<img src="{{ asset('website/images/123.jpg') }}" alt="#" class="single-blog-image">
+					<img src="{{ asset('website/images/143.jpg') }}" alt="#" class="single-blog-image">
 					<div class="content">
 						<p class="date">22 July, 2020. Monday</p>
 						<a href="#" class="title">Women Fashion Festive</a>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
 						<a href="#" class="more-btn">Continue Reading</a>
 					</div>
 				</div>

@@ -1,22 +1,16 @@
-<head>
+ <head>
+    <meta name="description" content="E Commerce Website">
+   
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>Vali Admin - Free Bootstrap 4 Admin Template</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   
-    <title>Monster Lite Template by WrapPixel</title>
-
-    <link href="{{asset('admin/css/all.min.css')}}" rel="stylesheet">
-
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <!-- Custom CSS -->
-    <link href="{{asset('admin/css/chartist.min.css')}}" rel="stylesheet">
-    <!-- toaster CSS -->
-    <link href="{{asset('admin/css/toastr.css')}}" rel="stylesheet">
-    <link href="{{asset('admin/css/datatables.min.css')}}" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="{{asset('admin/css/style.min.css')}}" rel="stylesheet">
-    <link href="{{asset('admin/css/toastr.css')}}" rel="stylesheet">
-    <link href="{{asset('admin/css/custom.css')}}" rel="stylesheet">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Font-icon css-->
   
-</head>
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="{{asset('admin/css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="{{asset('admin/css/custom.css')}}">
+   
+  </head>
