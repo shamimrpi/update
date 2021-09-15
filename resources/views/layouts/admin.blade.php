@@ -1,55 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
- @include('partials.admin_head')
-  <body class="app sidebar-mini">
-    @include('partials.admin_header')
-    <!-- Sidebar menu-->
-    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
-    @include('partials.admin_sidebar')
-    <main class="app-content">
-      <div class="app-title">
-        @yield('main_body')
-       
-
-          
-      </div>
-    </main>
-  
-
-  @include('partials.admin_scripts')
-  @yield('scripts')
-  <script type="text/javascript">
-      $('#demoNotify').click(function(){
-        $.notify({
-          title: "Update Complete : ",
-          message: "Something cool is just updated!",
-          icon: 'fa fa-check' 
-        },{
-          type: "info"
-        });
-      });
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Software Templete | @yield('title')</title>
+        <link href="{{ asset('admin/css/style.css') }}" rel="stylesheet" />
+        <link href="{{ asset('admin/css/styles.css') }}" rel="stylesheet" />
+        <link href="{{ asset('admin/css/custom.css') }}" rel="stylesheet" />
+    </head>
+    <body class="sb-nav-fixed">
         
-        $('#logout').click(function(){
-        if(confirm('Are you sure to logout')) {
-        return true;
-        }
+        @include('partials.admin_navbar')
 
-        return false;
-        });
+        <div id="layoutSidenav">
+            
+            @include('partials.admin_sidebar')
 
-    
-    </script>
-    <!-- Google analytics script-->
-    <script type="text/javascript">
-      if(document.location.hostname == 'pratikborsadiya.in') {
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-72504830-1', 'auto');
-        ga('send', 'pageview');
-      }
-    </script>
-  </body>
+            <div id="layoutSidenav_content">
+
+                @yield('main-content') 
+                
+                @include('partials.admin_footer')
+            
+            </div>
+        </div>
+        <script src="{{ asset('admin/js/scripts.js') }}"></script>
+        <script src="{{ asset('admin/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
+        <script src=" {{ asset('admin/js/all.min.js') }}" crossorigin="anonymous"></script>
+        <script src="{{ asset('admin/js/simple-datatables@latest.js') }}" crossorigin="anonymous"></script>
+        <script src="{{ asset('admin/js/datatables-simple-demo.js') }}"></script>
+        <script>
+            function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
+
+console.log(formatAMPM(new Date));
+        </script>
+    </body>
 </html>

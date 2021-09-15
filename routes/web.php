@@ -1,16 +1,13 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboardController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProductCategoryController;
-use App\Http\Controllers\Logincontroller;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\AdminProfileController;
-use App\Http\Controllers\FrontCartController;
-use App\Http\Controllers\CheckoutController;
-use App\Http\Controllers\FrontContactController;
-use App\Http\Controllers\AdminProductController;
+
+use App\Http\Controllers\Website\HomeController;
+
+use App\Http\Controllers\webstie\CheckoutController;
+use App\Http\Controllers\website\FrontContactController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,22 +19,34 @@ use App\Http\Controllers\AdminProductController;
 |
 */
 
+Route::get('/',[HomeController::class,'index'])->name('home');
+Route::get('/cart',[HomeController::class,'cartView'])->name('cart');
+Route::get('/checkout',[HomeController::class,'checkOut'])->name('check.out');
+Route::get('/contact',[HomeController::class,'contact'])->name('contact');
+
 Route::get('/login',[LoginController::class,'login'])->name('login');
 Route::post('/login/confirm',[LoginController::class,'loginConfirm'])->name('login.confirm');
 
 //admin area
-Route::middleware(['auth'])->group(function () {
-Route::get('/logout',[LoginController::class,'logout'])->name('logout');
-  Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
-     
 
-});
+	Route::get('/logout',[LoginController::class,'logout'])->name('logout');
 
 
-Route::get('/',[HomeController::class,'home'])->name('home');
-Route::get('/cart',[FrontCartController::class,'cartView'])->name('cart');
-Route::get('/checkout',[CheckoutController::class,'checkOut'])->name('check.out');
-Route::get('/contact',[FrontContactController::class,'contact'])->name('contact');
+
+
+	Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
+  	Route::get('/table', [DashboardController::class, 'table'])->name('table');
+	Route::get('/form', [DashboardController::class, 'form'])->name('form');
+
+
+
+
+    Route::get('/category',[ProductCategoryController::class,'index'])->name('category');
+    Route::post('/category/store',[ProductCategoryController::class,'store'])->name('category.store');
+
+
+
+
 
 
 

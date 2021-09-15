@@ -1,10 +1,6 @@
 @extends('layouts.website')
 @section('main_body')
 <!-- Slider Area -->
-
-
-
-
 <section class="hero-slider">
 	<div class="single-slider">
 		<div class="container-fluid">

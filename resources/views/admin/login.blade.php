@@ -3,6 +3,7 @@
 <html lang="en">
  @include('partials.admin_head')
   <body class="app sidebar-mini">
+
   <section class="material-half-bg">
       <div class="cover"></div>
     </section>
@@ -11,16 +12,13 @@
         <h1>Vali</h1>
       </div>
       <div class="login-box">
-        @if('Session(fail)')
-        <div class="alert">
-          not match
-        </div>
-        @endif
+      
         <form class="login-form" action="{{route('login.confirm')}}" method="POST">
           @csrf
           <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>SIGN IN</h3>
+             @include('flash::message')
           <div class="form-group">
-            <label class="control-label">USERNAME</label>
+            <label class="control-label">Email</label>
             <input class="form-control" type="text" name="email" placeholder="Email" autofocus>
           </div>
           <div class="form-group">
@@ -59,5 +57,7 @@
   
 
   @include('partials.admin_scripts')
+
+
   </body>
 </html>
