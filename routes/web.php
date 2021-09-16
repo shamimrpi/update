@@ -33,6 +33,11 @@ Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 	// category controller
 	Route::get('/category',[CategoryController::class,'index'])->name('category');
 	Route::post('/category/store',[CategoryController::class,'store'])->name('category.store');
+	Route::get('/category/edit/{id}',[CategoryController::class,'edit'])->name('category.edit');
+	Route::post('/category/update/{id}',[CategoryController::class,'update'])->name('category.update');
+	Route::get('/category/active/{id}',[CategoryController::class,'active'])->name('category.active');
+	Route::delete('/category/delete/{id}',[CategoryController::class,'destroy'])->name('category.delete');
+	
 
 
 

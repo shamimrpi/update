@@ -15,3 +15,56 @@
 label{
     margin-bottom: 7px;
 }
+footer.bg-light {
+    padding: 10px;
+}
+
+a.text-decoration-none {
+    color: #000;
+}
+body{
+	overflow-x: hidden;
+}
+.left{
+	text-align: left;
+}
+.submit-btn{
+	width: 100px;
+	float: left;
+}
+
+td{
+	display: table-cell;
+    vertical-align: middle;
+}
+button.btn.btn-primary.submit-btn {
+    margin-left: 20px;
+}
+.card-header.d-flex.justify-content-between {
+    background: #ccddef;
+}
+button.btn.btn-primary.update-btn {
+    margin-left: 40px;
+}
+.active-btn{
+    text-decoration: none;
+    color: #000;
+}
+.table-card-body {
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+    padding: 0;
+}
+footer.bg-light {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+}
+footer.bg-light .common-text text-muted{
+    float: right;
+}
+.common-text.text-muted{
+    position: fixed;
+    right: 0;
+    padding-right: 20px;
+}

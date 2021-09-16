@@ -3,9 +3,17 @@
         <div class="sb-sidenav-menu">
             <div class="nav">
                 {{-- <div class="sb-sidenav-menu-heading">Core</div> --}}
-                <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ route('home') }}">
+                <a class="nav-link {{ Request::is('dasboard') ? 'active' : '' }}" href="{{ route('dashboard') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Dashboard
+                </a>
+                <a class="nav-link " href="{{route('category')}}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-divide"></i></div>
+                    Category
+                </a>
+                <a class="nav-link " href="{{route('category')}}">
+                    <div class="sb-nav-link-icon"><i class="fa fa-cookie"></i></div>
+                    Product
                 </a>
                 {{-- <div class="sb-sidenav-menu-heading">Interface</div> --}}
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
