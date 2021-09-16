@@ -1,71 +1,96 @@
 @extends('layouts.admin')
-@section('main_body')
-	 <div class="app-title">
-
-          <h1><i class="fa fa-dashboard"></i> Category</h1>
-          <ul class="app-breadcrumb breadcrumb">
-          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-          <li class="breadcrumb-item"><a href="{{ route('category') }}">Category</a></li>
-        </ul>
+@section('title', 'DataTable')
+@section('main-content')
+<main>
+    <div class="container-fluid">
+        <div class="heading-title p-2 my-2">
+            <span class="my-3 heading "><i class="fas fa-home"></i> <a class="" href="">Home</a> > Input Group</span>
         </div>
-   
-        	
-        		<form action="{{ route('category.store') }}" method="post">
-        		 	@csrf
-        		 	<div class="tile">
-	        		<div class="row justify-content-center">
-	        		<div class="form-group col-md-6">
-	                  <label class="control-label"><strong>Category Name</strong></label>
-	                  <input class="form-control" type="text" name="name" placeholder="Enter your name">
-	                </div>
-	              
-	                <div class="form-group col-md-4">
-	                  <button class="btn btn-primary" type="submit" style="margin-top: 28px"><i class="fa fa-fw fa-lg fa-check-circle"></i>Create</button>
-	                </div>
-	            	</div>
-	            </form>
-        	</div>
-       <div class="row">
-        <div class="col-md-12">
-          <div class="tile">
-            <div class="tile-body">
-              <div class="table-responsive">
-                <table class="table table-hover table-bordered" id="sampleTable">
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
+        <div class="card my-3">
+            <div class="card-header d-flex justify-content-between">
+                <div class="table-head"><i class="fas fa-user me-1"></i>Category</div>
+                
+            </div>
+            <div class="card-body table-card-body">
+              <form action="{{route('category.store')}}" method="post" enctype="multipart/form-data">
+                @csrf
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="row justify-content-center">
+                        <div class="col-sm-10">
+                          <label>Category Name</label>
+                          <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="col-sm-10">
+                          <label>Image</label>
+                          <input type="file" id="imgload" name="image" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="category-img">
+                        <img  id="showImage" style="height: 150px;width:150px;margin-top:5px">
+                      </div>
+                    </div>
+                      
+                      <div class="clearfix">
+                          <div class="text-end m-auto">
+                            
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                      </div>
+                      <hr class="my-2">
+                  
+                </div>
+              </form>
+                
+            </div>
+
+            <div class="card-body table-card-body">
+              <table id="datatablesSimple">
+                  <thead class="text-center bg-light">
+                      <tr>
+                          <th>SL</th>
+                          <th>Name</th>
+                          <th>Image</th>
+                          <th>Action</th>
+                      
+                      </tr>
                   </thead>
                   <tbody>
-                  	@foreach($categories as $key=>$category)
-                    <tr>
-                      <td>{{ $key+1 }}</td>
-                      <td>{{ $category->name }}</td>
-                      <td>Edinburgh</td>
-                      <td>61</td>
-                      <td>2011/04/25</td>
-                      <td>$320,800</td>
-                    </tr>
-                    @endforeach
+                    @foreach($categories as $key=>$category)
+                      <tr>
+                          <td>{{$key+1}}</td>
+                          <td>{{$category->name}}</td>
+                          <td>{{$category->image}}</td>
+                          <td class="text-center">
+                              <a href="" class="btn btn-edit"><i class="fas fa-pencil-alt"></i></a>
+                              <a href="" class="btn btn-delete"><i class="fa fa-trash"></i></a>
+                          </td>
+                      </tr>
+                      @endforeach
                     
                   </tbody>
-                </table>
-              </div>
-            </div>
+              </table>
           </div>
-        </div>
-      </div>
-    </main>
-   
 
- @endsection
- @section('scripts')
- <script type="text/javascript" src="{{ asset('admin') }}/js/plugins/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="{{ asset('admin') }}/js/plugins/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript">$('#sampleTable').DataTable();</script>
- @endsection 
+        </div>  
+    </div>
+</main>
+@endsection
+@section('scripts')
+<script type="text/javascript">
+  $(document).ready(function(){
+     // image show javascript
+     $("#imgload").change(function () {
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#showImage').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+  });
+</script>
+@endsection
